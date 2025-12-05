@@ -15,6 +15,7 @@ Figure: **(Left)** Example of Bangla riddle from _BanglaRiddleEval_. The homopho
 ### Prerequisites
 
 - **Python**: 3.8 or higher
+- **Ollama**: For running local open-source models (Qwen3, GPT-OSS, Gemma, Deepseek-r1)
 - **Google Gemini API Key**: For running Gemini models (optional)
 
 ### Installation
