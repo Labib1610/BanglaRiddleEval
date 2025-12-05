@@ -1,3 +1,9 @@
 # _Can LLMs Solve My Grandma’s Enigmas?_ Evaluating Multilingual Large Language Models on Reasoning Traditional Bangla Tricky Riddles
 
 _Abstract: Large Language Models (LLMs) show impressive performance on many NLP benchmarks, yet their ability to reason in figurative, culturally grounded, and low-resource settings remains underexplored. We address this gap for Bangla by introducing **BanglaRiddleEval**, a benchmark of 1,244 traditional Bangla riddles instantiated across four tasks (4,976 riddle--task artifacts in total). Using an LLM-based pipeline, we generate Chain-of-Thought explanations, semantically coherent distractors, and fine-grained ambiguity annotations, and evaluate a diverse suite of open-source and closed-source models under different prompting strategies. Models achieve moderate semantic overlap on generative QA but low correctness, MCQ accuracy peaks at only about 56% versus an 83% human baseline, and ambiguity resolution ranges from roughly 26% to 68%, with high-quality explanations confined to the strongest models. These results show that current LLMs capture some cues needed for Bangla riddle reasoning but remain far from human-level performance, establishing **BanglaRiddleEval** as a challenging new benchmark for low-resource figurative reasoning._
+
+<p align="center">
+  <img src="Assets/method.png" alt="Methodology Diagram"/>
+</p>
+
+Figure: **(Left)** Example of Bangla riddle from _BanglaRiddleEval_. The homophone “শোয়া শিয়াল” (“lying fox” vs. “one-and-a-quarter fox”) tricks LLM into answering 2.5 foxes, while the correct answer is 2, illustrating the challenge of traditional Bengali riddle reasoning. **(Right)** Task overview of _BanglaRiddleEval_. Question, LLM-generated answer, and ground truth answer for four Bangla riddle tasks. Green ticks (✅) and red crosses (❌) indicate correctness of the generated answers.
