@@ -75,25 +75,21 @@ Data/
 Direct answer generation for riddles.
 - **Input**: Riddle text
 - **Output**: Generated answer
-- **Metric**: BERTScore (semantic similarity)
 
 ### 2. **Reasoning Evaluation (CoT)**
 Chain-of-thought reasoning with step-by-step explanation.
 - **Input**: Riddle + CoT reasoning
 - **Output**: Final answer with reasoning steps
-- **Metrics**: Answer correctness, reasoning quality
 
 ### 3. **Discriminative Evaluation (MCQ)**
 Multiple choice question answering with 4 options.
 - **Input**: Riddle + 4 answer choices
 - **Output**: Selected option index
-- **Metric**: Accuracy (exact match)
 
 ### 4. **Classification (Semantic Ambiguity)**
 Identifying semantic ambiguity in riddle terms.
 - **Input**: Riddle + ambiguous word + context
 - **Output**: Classification of ambiguity type
-- **Metric**: Classification accuracy
 
 ---
 
