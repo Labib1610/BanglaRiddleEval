@@ -218,44 +218,7 @@ All evaluation scripts support three prompting modes:
 
 Configure in each model's script or use default settings.
 
----
-
-## 📈 Output Format
-
-Evaluation results are saved as JSON files:
-
-**Results**: `riddles_{task}_{model}_{mode}.json`
-```json
-{
-  "riddle_id": 1,
-  "riddle": "বন থেকে বেরুল টিয়ে...",
-  "ground_truth": "আনারস",
-  "predicted": "আনারস",
-  "bert_score": 0.95,
-  "reasoning_steps": ["..."]
-}
-```
-
-**Metrics**: `metrics_{task}_{model}_{mode}.json`
-```json
-{
-  "Accuracy (%)": 56.3,
-  "BERTScore_F1": 0.78,
-  "n_examples": 1244,
-  "n_correct": 700
-}
-```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
----
+<!---
 
 ## 📄 Citation
 
@@ -280,5 +243,4 @@ For questions or issues, please open a GitHub issue or contact the authors.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+This project is licensed under the MIT License - see the LICENSE file for details. -->
