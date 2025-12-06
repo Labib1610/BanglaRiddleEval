@@ -15,7 +15,7 @@ Figure: **(Left)** Example of Bangla riddle from _BanglaRiddleEval_. The homopho
 ### Prerequisites
 
 - **Python**: 3.8 or higher
-- **Ollama**: For running local open-source models (Qwen3, GPT-OSS, Gemma, Deepseek-r1)
+<!-- - **Ollama**: For running local open-source models (Qwen3, GPT-OSS, Gemma, Deepseek-r1) -->
 - **Google Gemini API Key**: For running Gemini models (optional)
 
 ### Installation
@@ -31,7 +31,7 @@ cd BanglaRiddleEval
 pip install -r requirements.txt
 ```
 
-3. **Install Ollama** (for local models)
+<!-- 3. **Install Ollama** (for local models)
 ```bash
 # On Linux
 curl -fsSL https://ollama.com/install.sh | sh
@@ -54,6 +54,7 @@ ollama pull gemma3:12b
 ollama pull deepseek-r1:7b
 ollama pull deepseek-r1:14b
 ```
+-->
 
 ### Dataset Structure
 
@@ -95,7 +96,7 @@ Identifying semantic ambiguity in riddle terms.
 
 ## 🔬 Running Evaluations
 
-### Evaluate with Ollama Models
+### Evaluate Models
 
 Navigate to any model directory and run:
 
@@ -128,13 +129,13 @@ python run_evaluation.py
 
 ### Supported Models
 
-**Open-Source (via Ollama):**
+**Open-Source:**
 - Qwen3 (4B, 8B, 14B)
 - GPT-OSS (20B)
 - Gemma3 (4B, 12B)
 - Deepseek-r1 (7B, 14B)
 
-**Closed-Source (via API):**
+**Closed-Source:**
 - Google Gemini 2.5 Flash
 
 ---
@@ -200,7 +201,7 @@ Code/
 See `requirements.txt` for full dependencies:
 - `tqdm` - Progress bars
 - `requests` - HTTP requests for Ollama
-- `ollama` - Ollama Python client
+<!-- - `ollama` - Ollama Python client -->
 - `google-generativeai` - Google Gemini API
 - `bert-score` - BERTScore evaluation
 - `torch` - PyTorch for BERTScore
