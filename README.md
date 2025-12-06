@@ -149,7 +149,7 @@ The benchmark includes scripts for generating evaluation artifacts:
 cd "Code/Synthetic Data Generation/cot maker"
 python run_cot_generation.py
 ```
-Generates step-by-step reasoning for riddles using gpt-oss:20b.
+Generates step-by-step reasoning for riddles using gpt.
 
 ### 2. Multiple Choice Questions
 ```bash
