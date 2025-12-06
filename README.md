@@ -196,12 +196,12 @@ Code/
 
 ---
 
-## 📋 Requirements
+<!-- ## 📋 Requirements
 
 See `requirements.txt` for full dependencies:
 - `tqdm` - Progress bars
 - `requests` - HTTP requests for Ollama
-<!-- - `ollama` - Ollama Python client -->
+- `ollama` - Ollama Python client
 - `google-generativeai` - Google Gemini API
 - `bert-score` - BERTScore evaluation
 - `torch` - PyTorch for BERTScore
@@ -217,7 +217,7 @@ All evaluation scripts support three prompting modes:
 2. **Few-shot**: 2-3 example riddle-answer pairs as context
 3. **Chain-of-Thought (CoT)**: Step-by-step reasoning prompts
 
-Configure in each model's script or use default settings.
+Configure in each model's script or use default settings. -->
 
 <!---
 
