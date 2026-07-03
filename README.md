@@ -221,18 +221,30 @@ All evaluation scripts support three prompting modes:
 
 Configure in each model's script or use default settings. -->
 
-<!---
-
 ## 📄 Citation
 
 If you use BanglaRiddleEval in your research, please cite:
 
 ```bibtex
-@article{banglariddleeval2025,
-  title={Can LLMs Solve My Grandma's Enigmas? Evaluating Multilingual Large Language Models on Reasoning Traditional Bangla Tricky Riddles},
-  author={[Authors]},
-  journal={[Journal/Conference]},
-  year={2025}
+@inproceedings{sayeedi-etal-2026-llms,
+    title = "Can {LLM}s Solve My Grandma{'}s Riddle? Evaluating Multilingual Large Language Models on Reasoning Traditional {B}angla Tricky Riddles",
+    author = "Sayeedi, Nurul Labib  and
+      Sayeedi, Md. Faiyaz Abdullah  and
+      Jahangir, Khushnur Binte  and
+      Shatabda, Swakkhar  and
+      Preum, Sarah Masud",
+    editor = "Mohammad, Saif M.  and
+      Ousidhoum, Nedjma",
+    booktitle = "Proceedings of the 15th Joint Conference on Lexical and Computational Semantics (*{SEM} 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.starsem-conference.22/",
+    doi = "10.18653/v1/2026.starsem-conference.22",
+    pages = "331--347",
+    ISBN = "979-8-89176-413-2",
+    abstract = "Large Language Models (LLMs) show impressive performance on many NLP benchmarks, yet their ability to reason in figurative, culturally grounded, and low-resource settings remains underexplored. We address this gap for Bangla by introducing BanglaRiddleEval, a benchmark of 1,244 traditional Bangla riddles instantiated across four tasks (4,976 riddle-task artifacts in total). Using an LLM-based pipeline, we generate Chain-of-Thought explanations, semantically coherent distractors, and fine-grained ambiguity annotations, and evaluate a diverse suite of open-source and closed-source models under different prompting strategies. Models achieve moderate semantic overlap on generative QA but low correctness, MCQ accuracy peaks at only about 56{\%} versus an 83.3{\%} human baseline, and ambiguity resolution ranges from roughly 26{\%} to 68{\%}, with high-quality explanations confined to the strongest models. These results show that current LLMs capture some cues needed for Bangla riddle reasoning but remain far from human-level performance, establishing BanglaRiddleEval as a challenging new benchmark for low-resource figurative reasoning. All data, code, and evaluation scripts are available on GitHub: https://anonymous.4open.science/r/BanglaRiddleEval."
 }
 ```
 
@@ -240,10 +252,10 @@ If you use BanglaRiddleEval in your research, please cite:
 
 ## 📧 Contact
 
-For questions or issues, please open a GitHub issue or contact the authors.
+For questions or issues, please open a GitHub issue or contact the authors at msayeedi212049@bscse.uiu.ac.bd.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details. -->
+This project is licensed under the MIT License - see the LICENSE file for details.
